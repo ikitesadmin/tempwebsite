@@ -320,6 +320,11 @@ button { font-family: inherit; cursor: pointer; }
   grid-template-columns: repeat(3, 1fr);
   gap: 32px;
 }
+.cards-2 {
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 56rem;
+  margin-inline: auto;
+}
 .card {
   padding: 32px;
   border-radius: var(--radius-card);
